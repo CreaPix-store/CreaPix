@@ -30,7 +30,7 @@ body {
 .hero-section {
   position: relative;
   text-align: center;
-  padding: 100px 0; /* Ajustez le padding pour centrer verticalement */
+  padding: 50px 0; /* Ajustez le padding pour centrer verticalement */
   background: url('fond1.png') no-repeat center center;
   background-size: cover;
   overflow: hidden;
@@ -215,7 +215,8 @@ background-color: #b0bd04;
 }
 .fmd {
 background-color: black;
-padding: 30px;
+padding-right: 30px;
+padding-left: 30px;
 border-radius: 10px white;
 }
 
@@ -391,6 +392,7 @@ font-size: 20px;
 }
 
 /*section de mes raisons*/
+
 .SR{
   padding: 60px 0;
   /*background-color: #000000;*/
@@ -496,7 +498,7 @@ font-size: 20px;
   cursor: pointer;
   animation: pulse 2s infinite;
 }
-.whatsapp-icon i {
+.whatsapp-icon i{
   font-size: 24px;
 }
 @keyframes pulse {
@@ -545,7 +547,8 @@ font-size: 20px;
 }
 
 .gift {
-  font-size: 100px;
+ padding-top: 50px;
+  font-size: 200px;
   cursor: pointer;
   transition: transform 0.5s ease;
 }
