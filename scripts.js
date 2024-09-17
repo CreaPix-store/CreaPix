@@ -1,5 +1,6 @@
  // Définir la date cible (par exemple, le 1er janvier 2025 à minuit)
- const targetDate = new Date('January 1, 2025 00:00:00').getTime();
+ const targetDate = new Date('December 1, 2024 00:00:00').getTime();
+
 
  // Fonction de mise à jour du compte à rebours
  function updateCountdown() {
@@ -54,3 +55,21 @@ function openWhatsApp() {
     window.open('https://wa.me/53040263', '_blank');
     // Here you can add the functionality to open the chatbot window or modal
 }
+
+/*animation du bonus*/
+document.getElementById('gift').addEventListener('click', function() {
+    const gift = document.getElementById('gift');
+    const message = document.getElementById('message');
+    
+    // Animation du cadeau qui disparaît
+    gift.style.transform = 'scale(0)';
+    gift.style.transition = 'transform 1s ease';
+    
+    // Afficher le message après un court délai
+    setTimeout(function() {
+        gift.style.display = 'none';  // Cacher le cadeau
+        message.classList.remove('hidden');
+        message.classList.add('visible');
+    }, 1000);
+});
+
