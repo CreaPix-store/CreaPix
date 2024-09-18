@@ -539,6 +539,9 @@ font-size: 20px;
       max-width: 100%;
       height: auto;
   }
+  .gift{
+    font-size: 150px;
+  }
 }
 /*section de bonus*/
 .gift-wrapper {
