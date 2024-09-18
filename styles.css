@@ -557,6 +557,11 @@ font-size: 20px;
 .gift:hover {
   transform: scale(1.1);
 }
+/**/
+ video {
+            max-width: 100%;
+            height: auto;
+        }
 
 /* Pour les écrans de 480px ou moins (mobiles) */
 @media only screen and (max-width: 480px) {
