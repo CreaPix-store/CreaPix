@@ -73,3 +73,19 @@ document.getElementById('gift').addEventListener('click', function() {
     }, 1000);
 });
 
+///
+// Récupère l'élément vidéo
+var video = document.getElementById("myVideo");
+
+// Tente de démarrer la vidéo automatiquement avec le son
+window.onload = function() {
+    video.play().then(() => {
+        // Lecture réussie
+        console.log("La vidéo démarre avec le son.");
+    }).catch((error) => {
+        // Si la lecture automatique est bloquée, retire l'attribut "muted"
+        video.muted = false;
+        video.play();
+    });
+};
+
