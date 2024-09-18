@@ -539,9 +539,7 @@ font-size: 20px;
       max-width: 100%;
       height: auto;
   }
-  .gift{
-    font-size: 150px;
-  }
+ 
 }
 /*section de bonus*/
 .gift-wrapper {
@@ -560,6 +558,12 @@ font-size: 20px;
   transform: scale(1.1);
 }
 
+/* Pour les écrans de 480px ou moins (mobiles) */
+@media only screen and (max-width: 480px) {
+  .gift {
+    font-size: 100px; /* Ajustez la taille selon vos besoins */
+  }
+}
 .message {
   margin-top: 20px;
   font-size: 24px;
