@@ -52,7 +52,7 @@ elements.forEach(element => {
 
 /*whatsapp*/
 function openWhatsApp() {
-    window.open('https://wa.me/53040263', '_blank');
+    window.open('https://wa.me/41334742', '_blank');
     // Here you can add the functionality to open the chatbot window or modal
 }
 
