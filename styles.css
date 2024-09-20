@@ -587,3 +587,32 @@ font-size: 20px;
   display: block;
   opacity: 1;
 }
+
+/**/
+.gift-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+.gift:hover {
+  transform: scale(1.1); /* Augmente légèrement la taille au survol */
+}
+
+
+
+
+
+
+/* Adaptation pour les mobiles */
+@media only screen and (max-width: 768px) {
+  .gift {
+    font-size: 100px; /* Taille réduite pour les écrans mobiles */
+  }
+
+  .message {
+    font-size: 18px; /* Ajustement du texte pour mobile */
+  }
+}
