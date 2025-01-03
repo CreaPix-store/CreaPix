@@ -601,7 +601,21 @@ font-size: 20px;
   transform: scale(1.1); /* Augmente légèrement la taille au survol */
 }
 
-
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: none;
+  background-color: #00ff80;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.scroll-top:hover {
+  background-color: #1bd453;
+}
 
 
 

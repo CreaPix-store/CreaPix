@@ -1,5 +1,5 @@
  // Définir la date cible (par exemple, le 1er janvier 2025 à minuit)
- const targetDate = new Date('December 1, 2024 00:00:00').getTime();
+ const targetDate = new Date('May 1, 2025 00:00:00').getTime();
 
 
  // Fonction de mise à jour du compte à rebours
@@ -21,7 +21,7 @@
          document.getElementById('seconds').textContent = seconds;
      } else {
          // Si la date cible est atteinte, afficher un message ou arrêter le compte à rebours
-         document.querySelector('.countdown').textContent = 'The event has started!';
+         document.querySelector('.countdown').textContent = 'Promotion terminée';
      }
  }
 
@@ -88,4 +88,36 @@ window.onload = function() {
         video.play();
     });
 };
+
+
+
+
+/** */
+
+// Scroll to top functionality
+window.onscroll = function() {
+    var scrollButton = document.querySelector('.scroll-top');
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollButton.style.display = "block";
+    } else {
+        scrollButton.style.display = "none";
+    }
+};
+
+function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+function toggleMessage() {
+    var message = document.getElementById("message");
+    if (message.classList.contains("hidden")) {
+        message.classList.remove("hidden");
+        message.classList.add("visible");
+    } else {
+        message.classList.remove("visible");
+        message.classList.add("hidden");
+    }
+}
+
 
