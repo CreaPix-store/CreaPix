@@ -552,7 +552,8 @@ font-size: 20px;
 
 .gift {
  padding-top: 50px;
-  font-size: 200px;
+ padding-bottom: 50px;
+  font-size: 150px;
   cursor: pointer;
   transition: transform 0.5s ease;
 }

@@ -2,6 +2,7 @@
  const targetDate = new Date('May 1, 2025 00:00:00').getTime();
 
 
+
  // Fonction de mise à jour du compte à rebours
  function updateCountdown() {
      const now = new Date().getTime();
@@ -52,7 +53,7 @@ elements.forEach(element => {
 
 /*whatsapp*/
 function openWhatsApp() {
-    window.open('https://wa.me/41334742', '_blank');
+    window.open('https://wa.me/0141334742', '_blank');
     // Here you can add the functionality to open the chatbot window or modal
 }
 
